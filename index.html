@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نور الصغار | السيرة النبوية وقصص الأنبياء للأطفال</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--p:#1d8a5a;--p2:#f6b73c;--bg:#fffaf0;--dark:#2d3a4a;--blue:#1d6fa8}
+body{font-family:'Segoe UI',Tahoma,Arial,sans-serif;background:var(--bg);color:var(--dark);line-height:2}
+header{background:linear-gradient(135deg,#1d8a5a,#46c98a);color:#fff;padding:14px 16px;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+.nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.logo{font-size:1.5rem;font-weight:800}.logo span{color:var(--p2)}
+nav.links{display:flex;gap:10px;font-weight:700;flex-wrap:wrap}
+nav.links a{color:#fff;text-decoration:none;background:rgba(255,255,255,.15);padding:6px 14px;border-radius:20px;font-size:.88rem}
+.menu-btn{display:none;background:#fff;color:#1d8a5a;border:0;font-size:1.4rem;border-radius:10px;padding:4px 12px;cursor:pointer}
+.hero{max-width:1100px;margin:18px auto;padding:26px 18px;background:linear-gradient(135deg,#fff,#e8f9ef);border-radius:24px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:center;border:3px dashed #b9e6cc}
+.hero h1{font-size:1.9rem;color:#176f47}.hero h1 b{color:#d99a00}
+.btn{display:inline-block;padding:12px 26px;border-radius:30px;text-decoration:none;font-weight:800;border:0;cursor:pointer;font-size:1rem}
+.btn-g{background:var(--p2);color:#5a3a00}.btn-o{background:#fff;color:#176f47;border:2px solid #176f47}
+.hero-art{font-size:4.5rem;text-align:center;background:#fff;border-radius:20px;padding:20px;box-shadow:0 6px 20px rgba(0,0,0,.08)}
+section{max-width:1100px;margin:22px auto;padding:0 14px}
+.sec-title{text-align:center;margin-bottom:14px}.sec-title h2{font-size:1.6rem;color:#176f47}.sec-title p{color:#6b7a8c}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.08);border-bottom:6px solid var(--p2)}
+.card iframe,.card video{width:100%;height:200px;border:0;background:#000}
+.card .body{padding:14px}.badge{display:inline-block;font-size:.75rem;background:#e8f9ef;color:#176f47;padding:2px 12px;border-radius:20px;font-weight:700;margin-bottom:8px}
+.del{background:#fee2e2;color:#b91c1c;border:0;border-radius:10px;padding:4px 12px;font-weight:700;cursor:pointer;margin-top:8px}
+/* add video panel */
+.addbox{background:#fff;border-radius:20px;padding:18px;box-shadow:0 4px 16px rgba(0,0,0,.08);border:2px solid #b9e6cc;margin-bottom:16px}
+.addbox h3{color:#176f47;margin-bottom:8px}
+.addbox input,.addbox select{width:100%;padding:12px;border-radius:12px;border:2px solid #dbe7dd;margin:6px 0;font-size:1rem;font-family:inherit}
+.addbox small{color:#6b7a8c}
+.story{background:#fff;border-radius:20px;padding:20px;box-shadow:0 4px 16px rgba(0,0,0,.07);border-right:8px solid var(--blue);margin-bottom:14px}
+.story h3{color:#1d6fa8;margin-bottom:8px}
+.story p{margin-bottom:10px}
+.story .src{font-size:.8rem;color:#555;background:#f2f6f9;padding:4px 12px;border-radius:12px;display:inline-block;margin-top:8px}
+.story details{margin-top:10px;background:#fffaf0;border-radius:12px;padding:10px}.story summary{cursor:pointer;font-weight:800;color:#176f47}
+.quiz-box{background:linear-gradient(135deg,#2d3a4a,#4a5f7a);color:#fff;border-radius:24px;padding:26px 18px;text-align:center}
+.q-card{background:#fff;color:var(--dark);border-radius:18px;padding:20px;max-width:600px;margin:16px auto}
+.opt{display:block;width:100%;margin:8px 0;padding:12px;border-radius:14px;border:2px solid #e2e8f0;background:#f8fafc;font-weight:700;cursor:pointer;font-size:1rem;font-family:inherit}
+.opt.ok{background:#d1fae5;border-color:var(--p)}.opt.no{background:#fee2e2;border-color:#ef4444}
+.score{font-weight:800;color:#b45309}
+footer{background:#1d2b3a;color:#cbd5e1;text-align:center;padding:22px;margin-top:26px;font-size:.9rem}
+.note{background:#fef3c7;border:2px solid var(--p2);border-radius:16px;padding:12px 16px;margin-bottom:16px;font-size:.95rem}
+.progress{height:10px;background:#e5e7eb;border-radius:10px;overflow:hidden;margin:10px auto;max-width:600px}.progress div{height:100%;background:var(--p2);width:0%}
+@media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center}.hero h1{font-size:1.45rem}nav.links{display:none;position:absolute;top:60px;right:10px;left:10px;background:#176f47;flex-direction:column;padding:12px;border-radius:16px}nav.links.show{display:flex}.menu-btn{display:block}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<div class="logo">🌙 نور <span>الصغار</span></div>
+<button class="menu-btn" onclick="document.querySelector('.links').classList.toggle('show')">☰</button>
+<nav class="links">
+<a href="#videos">🎬 الفيديوهات</a><a href="#stories">📖 القصص</a><a href="#quiz">⭐ اختبر نفسك</a><a href="#dua">🤲 أدعية</a>
+</nav></div></header>
+
+<div class="hero">
+<div><h1>أهلاً يا بطل! 🌟 <br>تعلّم <b>سيرة نبينا ﷺ</b> وقصص الأنبياء بمتعة</h1>
+<p>فيديوهات وقصص كاملة وأسئلة ممتعة للأطفال من القرآن الكريم والسنة الصحيحة فقط.</p>
+<a class="btn btn-g" href="#videos">شاهد الآن 🎬</a>
+<a class="btn btn-o" href="#quiz">العب وتعلّم ⭐</a></div>
+<div class="hero-art">🕌<br><span style="font-size:1rem;color:#176f47;font-weight:800">قال ﷺ: «خيركم من تعلم العلم وعلّمه»</span></div>
+</div>
+
+<section id="videos">
+<div class="sec-title"><h2>🎬 فيديوهات السيرة وقصص الأنبياء</h2><p>شاهد داخل الموقع مباشرة + أضف فيديوهاتك الخاصة</p></div>
+
+<div class="addbox">
+<h3>➕ أضف فيديو جديد (يشتغل داخل الموقع)</h3>
+<input id="vTitle" placeholder="📝 اسم الفيديو: مثال: قصة أصحاب الفيل للأطفال">
+<select id="vCat"><option>السيرة النبوية</option><option>قصص الأنبياء</option><option>قصص القرآن</option><option>أخلاق وآداب</option></select>
+<input id="vUrl" dir="ltr" placeholder="🔗 الصق رابط الفيديو هنا (يوتيوب أو ملف mp4)... مثال: https://www.youtube.com/watch?v=...">
+<small>يقبل روابط يوتيوب العادية و youtu.be و Shorts ، وكذلك روابط mp4 المباشرة. يُحفظ الفيديو في متصفحك فقط.</small>
+<br><button class="btn btn-g" style="margin-top:10px" onclick="addVideo()">إضافة الفيديو ✅</button>
+<div id="vMsg" style="font-weight:800;margin-top:6px"></div>
+</div>
+
+<div class="grid" id="videoGrid"></div>
+</section>
+
+<section id="stories">
+<div class="sec-title"><h2>📖 قصص كاملة من القرآن والسيرة</h2><p>12 قصة كاملة وموثقة — اضغط على القصة لقراءتها كاملة</p></div>
+<div id="storyList"></div>
+</section>
+
+<section id="quiz">
+<div class="quiz-box">
+<div style="font-size:2rem">⭐ 🌙 ⭐</div>
+<h2>اختبر معلوماتك يا بطل! (20 سؤالاً)</h2>
+<p>أجب واجمع النجوم — كل إجابة صحيحة = 10 نقاط</p>
+<div class="progress"><div id="bar"></div></div>
+<div class="q-card">
+<div class="score" id="score">السؤال 1 من 20 | النقاط: 0 🌟</div>
+<h3 id="qText"></h3>
+<div id="opts"></div>
+<div id="feed" style="font-weight:800;min-height:28px"></div>
+<button class="btn btn-g" id="nextBtn" style="display:none;margin-top:8px" onclick="nextQ()">السؤال التالي ⏭</button>
+</div></div>
+</section>
+
+<section id="dua">
+<div class="sec-title"><h2>🤲 أدعية وأذكار الصغار</h2></div>
+<div class="grid">
+<div class="card"><div class="body"><span class="badge">دعاء الاستيقاظ</span><h3>الحمد لله الذي أحيانا بعد ما أماتنا وإليه النشور</h3><p style="font-size:.8rem;color:#888">رواه البخاري (6324)</p></div></div>
+<div class="card"><div class="body"><span class="badge">دعاء الطعام</span><h3>بسم الله، فإن نسي فليقل: بسم الله في أوله وآخره</h3><p style="font-size:.8rem;color:#888">رواه الترمذي وصححه الألباني</p></div></div>
+<div class="card"><div class="body"><span class="badge">دعاء النوم</span><h3>باسمك اللهم أموت وأحيا</h3><p style="font-size:.8rem;color:#888">رواه البخاري (6324)</p></div></div>
+<div class="card"><div class="body"><span class="badge">فضل الذكر</span><h3>قال ﷺ: «كلمتان خفيفتان على اللسان ثقيلتان في الميزان: سبحان الله وبحمده سبحان الله العظيم»</h3><p style="font-size:.8rem;color:#888">متفق عليه</p></div></div>
+</div>
+</section>
+
+<footer>موقع نور الصغار 🌙 — محتوى تعليمي للأطفال من القرآن الكريم والسنة الصحيحة فقط<br>صُنع بحب لأطفال المسلمين 🤍</footer>
+
+<script>
+// ---------- الفيديوهات مع خانة إضافة ----------
+const defaults=[]; // ابدأ فارغاً والمستخدم يضيف روابطه
+function getCustom(){try{return JSON.parse(localStorage.getItem('noor_videos')||'[]')}catch(e){return[]}}
+function saveCustom(a){localStorage.setItem('noor_videos',JSON.stringify(a))}
+function parseVideo(url){
+  url=(url||'').trim();
+  if(!url) return null;
+  // mp4 مباشر
+  if(/\.mp4(\?.*)?$/i.test(url)) return {type:'mp4',src:url};
+  // يوتيوب بأنواعه
+  let m=url.match(/(?:youtube\.com\/(?:watch\?.*v=|shorts\/|embed\/|live\/)|youtu\.be\/)([A-Za-z0-9_-]{6,})/);
+  if(m) return {type:'yt',src:'https://www.youtube.com/embed/'+m[1]};
+  // رابط embed جاهز
+  if(url.includes('youtube.com/embed/')) return {type:'yt',src:url.split('?')[0]};
+  return null;
+}
+function renderVideos(){
+  const all=[...getCustom(),...defaults];
+  const g=document.getElementById('videoGrid');
+  if(!all.length){g.innerHTML='<div class="note">📭 لا توجد فيديوهات بعد — الصق رابط يوتيوب بالأعلى واضغط (إضافة الفيديو) ليظهر هنا ويشتغل داخل الموقع 🎬</div>';return;}
+  g.innerHTML=all.map((v,i)=>{
+    const media=v.kind==='mp4'?`<video controls preload="metadata" src="${v.src}"></video>`:`<iframe loading="lazy" src="${v.src}" title="${v.t}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    const del=v.custom?`<br><button class="del" onclick="delVideo(${i})">🗑 حذف</button>`:'';
+    return `<div class="card">${media}<div class="body"><span class="badge">${v.c}</span><h3>${v.t}</h3>${del}</div></div>`;
+  }).join('');
+}
+function addVideo(){
+  const t=document.getElementById('vTitle').value.trim()||'فيديو جديد';
+  const c=document.getElementById('vCat').value;
+  const u=document.getElementById('vUrl').value.trim();
+  const p=parseVideo(u);
+  const msg=document.getElementById('vMsg');
+  if(!p){msg.style.color='#b91c1c';msg.textContent='❌ الرابط غير صالح — الصق رابط يوتيوب أو رابط mp4 مباشر';return;}
+  const arr=getCustom();arr.unshift({t,c,src:p.src,kind:p.type,custom:true});saveCustom(arr);
+  document.getElementById('vUrl').value='';document.getElementById('vTitle').value='';
+  msg.style.color='#1d8a5a';msg.textContent='✅ تمت الإضافة! الفيديو يعمل الآن داخل الموقع 🎉';
+  renderVideos();
+}
+function delVideo(i){
+  const custom=getCustom();
+  // i يشمل المخصصة أولاً
+  custom.splice(i,1);saveCustom(custom);renderVideos();
+}
+renderVideos();
+
+// ---------- قصص كاملة موثقة ----------
+const stories=[
+{h:"🌟 القصة الكاملة: مولد النبي ﷺ وطفولته",
+full:`<p>في مكة المكرمة، وفي عامٍ سُمّي <b>عام الفيل</b>، وُلد أعظم إنسان: <b>محمد بن عبد الله ﷺ</b>. وقد مات أبوه عبد الله وهو جنين في بطن أمه آمنة بنت وهب.</p>
+<p>فرحت به أمه، وأرضعته <b>حليمة السعدية</b> في البادية، وهناك حدثت له آية عظيمة: جاءه ملكان فشقّا صدره وطهّرا قلبه، فخافت عليه حليمة وأعادته إلى أمه. وهذه كرامة ثابتة في صحيح مسلم.</p>
+<p>ماتت أمه وهو ابن ست سنين، فكفله جده <b>عبد المطلب</b>، ثم مات الجد فكفله عمه <b>أبو طالب</b> وكان يحبه كثيراً. واشتغل ﷺ برعي الغنم ثم بالتجارة، واشتهر بين الناس بـ<b>الصادق الأمين</b>، حتى اختارته خديجة رضي الله عنها ليُتاجر بمالها ثم تزوجته.</p>
+<p>ولما بلغ الأربعين، نزل عليه جبريل عليه السلام في <b>غار حراء</b> وقال له: اقرأ، فقال: ما أنا بقارئ، فضمّه ثم قال: {اقرأ باسم ربك الذي خلق}، فكانت أول آيات القرآن.</p>
+<p><b>الدروس:</b> الصدق والأمانة، وبرّ اليتيم، وأن الله يحفظ عباده الصالحين منذ الصغر.</p>`,
+s:"المصدر: صحيح البخاري (3) حديث بدء الوحي | صحيح مسلم (162) حديث شق الصدر | سورة العلق 1-5"},
+{h:"🕊️ القصة الكاملة: الهجرة النبوية إلى المدينة",
+full:`<p>اشتد أذى قريش على النبي ﷺ وأصحابه في مكة: ضربٌ وحصارٌ ومقاطعة، فأذن الله له بالهجرة إلى <b>المدينة المنورة</b> بعد أن بايعه أهلها على النصرة.</p>
+<p>خرج ﷺ ليلاً مع صاحبه <b>أبي بكر الصديق رضي الله عنه</b>، واختبآ في <b>غار ثور</b> ثلاثة أيام، وكانت قريش تبحث عنهما، حتى قال أبو بكر: لو نظر أحدهم تحت قدميه لرآنا! فقال ﷺ الكلمة الخالدة: <b>«لا تحزن إن الله معنا»</b>، فأنزل الله سكينته وحفظهما.</p>
+<p>سلكا طريقاً غير معروف، ووصل المدينة فاستقبله الأطفال والنساء بالفرح، وأقام ﷺ <b>المسجد النبوي</b> وآخى بين المهاجرين والأنصار، وصارت المدينة عاصمة الإسلام الأولى.</p>
+<p><b>الدروس:</b> الثقة بالله، واختيار الصاحب الصالح، والتخطيط والأخذ بالأسباب مع التوكل.</p>`,
+s:"المصدر: صحيح البخاري (3905، 3917) | سورة التوبة آية 40"},
+{h:"🌊 القصة الكاملة: نوح عليه السلام والسفينة",
+full:`<p>أرسل الله <b>نوحاً عليه السلام</b> إلى قوم يعبدون الأصنام، فدعاهم <b>تسعمائة وخمسين سنة</b> ليلاً ونهاراً، فلم يؤمن معه إلا قليل، وكانوا يسخرون منه ويضعون أصابعهم في آذانهم.</p>
+<p>أمره الله أن يصنع <b>السفينة</b> في وسط الصحراء! فضحك منه الكفار، لكنه أطاع ربه، وجمع فيها من كل حيوان زوجين، وركب معه المؤمنون.</p>
+<p>جاء <b>الطوفان العظيم</b>: تفجرت العيون ونزل المطر، وغرق كل شيء، حتى ابن نوح الذي رفض الركوب وقال سآوي إلى جبل، فقال له أبوه: لا عاصم اليوم من أمر الله. ونجّى الله نوحاً ومن معه.</p>
+<p><b>الدروس:</b> الصبر الطويل في الدعوة، وطاعة الله ولو سخر الناس، وأن النجاة بالإيمان والعمل الصالح.</p>`,
+s:"المصدر: سورة هود 25-48 | سورة العنكبوت 14 | سورة نوح كاملة"},
+{h:"🕋 القصة الكاملة: إبراهيم عليه السلام وتحطيم الأصنام",
+full:`<p>وُلد <b>إبراهيم عليه السلام</b> في قوم يعبدون الكواكب والأصنام، حتى أبوه آزر كان يصنعها. فبدأ يدعوهم بالحكمة: قال للكوكب والقمر والشمس: هذا ربي؟ ثم بيّن لهم أنها تغيب، والله لا يغيب.</p>
+<p>وفي يوم العيد، حطّم الأصنام كلها بفأس وترك الكبير ووضع الفأس عليه، فلما سألوه قال ساخراً بهم: بل فعله كبيرهم! فاعترفوا أنها لا تنطق، فأُفحموا. فقرروا حرقه في نار عظيمة، فقال الله: <b>{يا نار كوني برداً وسلاماً على إبراهيم}</b> فخرج سالماً.</p>
+<p>ثم أمره الله ببناء <b>الكعبة</b> مع ابنه إسماعيل، وبذبح إسماعيل اختباراً، فأطاعا، ففداه الله <b>بكبش عظيم</b>، ومن هنا جاءت سُنّة الأضحية.</p>
+<p><b>الدروس:</b> التوحيد والشجاعة في الحق، وأن الله ينصر أولياءه، وبرّ الوالدين مع الثبات على الدين.</p>`,
+s:"المصدر: سورة الأنعام 74-83 | سورة الأنبياء 51-71 | سورة الصافات 102-107"},
+{h:"🌙 القصة الكاملة: يوسف عليه السلام من البئر إلى العرش",
+full:`<p>رأى <b>يوسف الصغير</b> رؤيا: أحد عشر كوكباً والشمس والقمر له ساجدين، فقال له أبوه يعقوب: لا تقصص رؤياك على إخوتك فيكيدوا لك.</p>
+<p>حسده إخوته فألقوه في <b>البئر</b>، ثم التقطته قافلة وبيع في مصر، وتربّى في بيت العزيز، ثم تعرّض لفتنة عظيمة فاختار السجن على المعصية وقال: <b>رب السجن أحب إليّ</b>، فصبر سنوات.</p>
+<p>بفضل علم تأويل الرؤى الذي علّمه الله، فسّر رؤيا الملك، فجعله الله <b>عزيز مصر</b>، ثم جاء إخوته يطلبون الطعام، فعفا عنهم وقال: <b>لا تثريب عليكم اليوم</b>، وجمع الله شمله بأبيه وإخوته وسجدوا له تحقيقاً للرؤيا.</p>
+<p><b>الدروس:</b> العفة والصبر، والعفو عند المقدرة، وأن بعد العسر يسراً.</p>`,
+s:"المصدر: سورة يوسف كاملة"},
+{h:"🌊 القصة الكاملة: موسى عليه السلام وفرعون",
+full:`<p>كان <b>فرعون</b> ظالماً يقتل أبناء بني إسرائيل، فأوحى الله إلى أم موسى أن ترضعه ثم تضعه في صندوق وتلقيه في النيل، فالتقطه آل فرعون وتربّى في قصره! ووعد الله أمه بإرجاعه، فردّه الله إليها لتُرضعه.</p>
+<p>كبر موسى وخرج إلى مدين وتزوج، ثم كلّمه الله عند جبل الطور وجعله نبياً، وأيّده بمعجزتين: <b>العصا واليد البيضاء</b>. فدعا فرعون إلى عبادة الله، فتكبّر وجمع السحرة، فآمن السحرة لما رأوا الحق.</p>
+<p>خرج موسى بقومه، فلحقهم فرعون بجيشه، فضرب موسى البحر بعصاه <b>فانفلق البحر</b> وعبر المؤمنون، ثم غرق فرعون وجنوده، ونجّى الله موسى ومن معه يوم عاشوراء.</p>
+<p><b>الدروس:</b> أن الله يحفظ أولياءه، وأن الظلم نهايته الغرق والهلاك، وصيام عاشوراء شكراً لله.</p>`,
+s:"المصدر: سورة طه 9-77 | سورة الشعراء 60-68 | صحيح البخاري (2004) صيام عاشوراء"},
+{h:"🐋 القصة الكاملة: يونس عليه السلام والحوت",
+full:`<p>أُرسل <b>يونس عليه السلام</b> إلى أهل نينوى، فدعاهم فأعرضوا، فغضب وتركهم قبل أن يأذن الله له، وركب سفينة، فاضطربت الأمواج، فاقترعوا على من يُلقى في البحر فوقعت عليه، فأُلقي.</p>
+<p>ابتلعه <b>الحوت العظيم</b> بأمر الله، فعاش في ظلمات ثلاث: ظلمة الليل والبحر وبطن الحوت، فدعا الدعوة المشهورة: <b>{لا إله إلا أنت سبحانك إني كنت من الظالمين}</b>، فاستجاب الله له وأمر الحوت فقذفه على الشاطئ.</p>
+<p>عاد إلى قومه فوجدهم قد آمنوا جميعاً! فمتّعهم الله حيناً.</p>
+<p><b>الدروس:</b> عدم الاستعجال، وكثرة الاستغفار، وأن الدعاء يفرّج الكرب، والصبر على الدعوة.</p>`,
+s:"المصدر: سورة الأنبياء 87-88 | سورة الصافات 139-148 | سورة القلم 48-50"},
+{h:"🕷️ القصة الكاملة: أبو بكر الصديق رضي الله عنه",
+full:`<p><b>أبو بكر الصديق</b> أول من آمن من الرجال، وصديق النبي ﷺ قبل الإسلام وبعده. لُقّب بالصدّيق لأنه صدّق النبي ﷺ في خبر <b>الإسراء والمعراج</b> حين كذّبه الناس.</p>
+<p>أنفق ماله كله في سبيل الله، واشترى <b>بلال بن رباح</b> وأعتقه، وكان يبكي من خشية الله. وفي الهجرة كان رفيق النبي ﷺ في الغار، وأنزل الله فيه: {ثاني اثنين إذ هما في الغار}.</p>
+<p>بعد وفاة النبي ﷺ تولّى الخلافة، وثبّت المسلمين وقال كلمته العظيمة: <b>«من كان يعبد محمداً فإن محمداً قد مات، ومن كان يعبد الله فإن الله حي لا يموت»</b>، وحارب المرتدين وحفظ الدين، وجمع القرآن.</p>
+<p><b>الدروس:</b> الصدقة والصدق، وصحبة الأخيار، والثبات عند الشدائد.</p>`,
+s:"المصدر: صحيح البخاري (3667، 3670) | سورة التوبة 40 | سيرة ابن هشام"},
+{h:"⚔️ القصة الكاملة: غزوة بدر الكبرى",
+full:`<p>في <b>17 رمضان من السنة الثانية للهجرة</b>، خرج النبي ﷺ مع <b>313</b> رجلاً فقط، ليس معهم إلا فرسان و70 بعيراً، لملاقاة قافلة قريش، فجاءت قريش بجيش <b>ألف مقاتل</b> مدرّع.</p>
+<p>قام النبي ﷺ يدعو ليلتها: <b>«اللهم إن تهلك هذه العصابة لا تُعبد في الأرض»</b>، فأنزل الله: {إذ تستغيثون ربكم فاستجاب لكم أني ممدكم بألف من الملائكة}، ونزل النعاس أمناً، والمطر ثباتاً.</p>
+<p>بدأت المبارزة: حمزة وعلي وعبيدة ضد عتبة وشيبة والوليد، فنصرهم الله، ثم التحم الجيشان، فقتل من المشركين 70 وأُسر 70، واستشهد 14 من المسلمين. وكان يوم الفرقان.</p>
+<p><b>الدروس:</b> الدعاء سلاح المؤمن، وأن النصر من عند الله لا بالكثرة، وفضل أهل بدر الذين غفر الله لهم.</p>`,
+s:"المصدر: سورة الأنفال 9-12 | صحيح مسلم (1763) حديث دعاء بدر"},
+{h:"🕋 القصة الكاملة: فتح مكة",
+full:`<p>بعد أن نقضت قريش صلح الحديبية، خرج النبي ﷺ في رمضان من السنة الثامنة بجيش <b>عشرة آلاف</b> مسلم، ودخل مكة متواضعاً مطأطئاً رأسه شكراً لله.</p>
+<p>اجتمع أهل مكة خائفين مما سيفعله بهم بعد سنوات الأذى، فقال لهم الكلمة العظيمة: <b>«اذهبوا فأنتم الطلقاء»</b>، فعفا عنهم جميعاً! ودخل الكعبة وحطّم <b>360 صنماً</b> وهو يقول: {جاء الحق وزهق الباطل}.</p>
+<p>دخل الناس في دين الله أفواجاً، وأسلم أبو سفيان وحسن إسلامه، وثبت الله قلوب المؤمنين.</p>
+<p><b>الدروس:</b> العفو عند المقدرة أعظم الأخلاق، وأن الحق منصور، والتواضع عند النصر.</p>`,
+s:"المصدر: صحيح البخاري (4280) | سورة الإسراء 81 | سورة النصر"},
+{h:"🐘 القصة الكاملة: أصحاب الفيل",
+full:`<p>جاء <b>أبرهة الحبشي</b> بجيش عظيم ومعه فيلة ضخمة ليهدم <b>الكعبة</b>، ويصرف الناس إلى كنيسته في اليمن. ووقف عبد المطلب جد النبي ﷺ يدعو الله لحماية بيته.</p>
+<p>لما اقترب الجيش، أمر الله الفيل الأكبر فبرك ولم يتحرك نحو الكعبة، ثم أرسل الله عليهم <b>طيراً أبابيل ترميهم بحجارة من سجيل</b>، فأهلكتهم جميعاً وجعلهم كورق الشجر المأكول.</p>
+<p>وُلد النبي ﷺ في نفس العام، فسمّي <b>عام الفيل</b>، وصار آية على حماية الله لبيته الحرام.</p>
+<p><b>الدروس:</b> أن الله يحمي دينه وبيته، وأن كيد الظالمين ضعيف أمام قدرة الله.</p>`,
+s:"المصدر: سورة الفيل كاملة | سيرة ابن هشام"},
+{h:"🌙 القصة الكاملة: الإسراء والمعراج",
+full:`<p>في ليلة عظيمة بعد عام الحزن، أُسري بالنبي ﷺ من <b>المسجد الحرام إلى المسجد الأقصى</b> على <b>البراق</b>، فصلّى بالأنبياء إماماً، ثم عُرج به إلى السماوات العلا.</p>
+<p>رأى ﷺ من آيات ربه الكبرى: الجنة والنار، والتقى بالأنبياء: آدم ويوسف وموسى وعيسى وإبراهيم عليهم السلام، ووصل إلى <b>سدرة المنتهى</b>، وفرض الله عليه <b>الصلوات الخمس</b> بعد أن كانت خمسين، تخفيفاً ورحمة.</p>
+<p>لما أخبر قريشاً كذّبوه، لكن <b>أبا بكر</b> صدّقه فوراً فسُمّي الصدّيق. وفي الصباح وصف لهم بيت المقدس بدقة فبُهتوا.</p>
+<p><b>الدروس:</b> مكانة الصلاة (فرضت في السماء)، وفضل المسجد الأقصى، وأن الفرج يأتي بعد الشدة.</p>`,
+s:"المصدر: سورة الإسراء 1 | سورة النجم 13-18 | صحيح البخاري (3887) | صحيح مسلم (162)"},
+];
+document.getElementById('storyList').innerHTML=stories.map(s=>`<div class="story"><h3>${s.h}</h3><details open><summary>اقرأ القصة كاملة 📖</summary><div style="margin-top:10px">${s.full}</div></details><span class="src">📚 ${s.s}</span></div>`).join('');
+
+// ---------- 20 سؤالاً ----------
+const quiz=[
+{q:"أين وُلد النبي محمد ﷺ؟",o:["في مكة 🕋","في المدينة","في الطائف"],a:0},
+{q:"من هو صاحب النبي ﷺ في الغار؟",o:["عمر بن الخطاب","أبو بكر الصديق 🤝","علي بن أبي طالب"],a:1},
+{q:"كم سنة دعا نوح عليه السلام قومه؟",o:["100 سنة","500 سنة","950 سنة 🌊"],a:2},
+{q:"ما أول كلمة نزلت من القرآن؟",o:["اقرأ 📖","صلِّ","اصبر"],a:0},
+{q:"في أي شهر كانت غزوة بدر؟",o:["شعبان","رمضان 🌙","شوال"],a:1},
+{q:"ماذا يقول المسلم قبل الطعام؟",o:["بسم الله 🍽","السلام عليكم","وداعاً"],a:0},
+{q:"من لُقّب بأبي الأنبياء؟",o:["موسى عليه السلام","إبراهيم عليه السلام 🕋","يوسف عليه السلام"],a:1},
+{q:"أين نزل الوحي أول مرة؟",o:["غار حراء ⛰","جبل أحد","المسجد النبوي"],a:0},
+{q:"ما اسم أم النبي ﷺ؟",o:["خديجة","آمنة بنت وهب 🤍","حليمة"],a:1},
+{q:"من أرضعت النبي ﷺ في البادية؟",o:["حليمة السعدية 🐐","آسية","مريم"],a:0},
+{q:"كم عدد أصحاب بدر من المسلمين؟",o:["1000","313 ⭐","100"],a:1},
+{q:"ما السورة التي ذكرت أصحاب الفيل؟",o:["سورة الفيل 🐘","سورة النحل","سورة الكهف"],a:0},
+{q:"من ابتلعه الحوت؟",o:["موسى عليه السلام","يونس عليه السلام 🐋","هود عليه السلام"],a:1},
+{q:"ما دعاء يونس في بطن الحوت؟",o:["لا إله إلا أنت سبحانك إني كنت من الظالمين 🤲","الحمد لله","سبحان الله فقط"],a:0},
+{q:"أين أُسري بالنبي ﷺ ليلاً؟",o:["إلى المسجد الأقصى 🕌","إلى مصر","إلى اليمن"],a:0},
+{q:"كم صلاة فرض الله في اليوم؟",o:["3 صلوات","5 صلوات 🕌","10 صلوات"],a:1},
+{q:"ماذا قال النبي ﷺ لأهل مكة يوم الفتح؟",o:["اذهبوا فأنتم الطلقاء 🤍","لا عفو اليوم","ارجعوا"],a:0},
+{q:"من أول من آمن من الرجال؟",o:["علي بن أبي طالب","أبو بكر الصديق ⭐","حمزة"],a:1},
+{q:"ما معجزة موسى الكبرى يوم البحر؟",o:["انفلاق البحر 🌊","نزول المطر","البراق"],a:0},
+{q:"من الذي بنى الكعبة مع إسماعيل؟",o:["إبراهيم عليه السلام 🕋","نوح عليه السلام","آدم عليه السلام"],a:0},
+];
+let qi=0,sc=0;
+function showQ(){const q=quiz[qi];document.getElementById('qText').textContent=(qi+1)+". "+q.q;
+document.getElementById('score').textContent=`السؤال ${qi+1} من ${quiz.length} | النقاط: ${sc} 🌟`;
+document.getElementById('bar').style.width=(qi/quiz.length*100)+'%';
+document.getElementById('feed').textContent='';document.getElementById('nextBtn').style.display='none';
+document.getElementById('opts').innerHTML=q.o.map((t,i)=>`<button class="opt" onclick="ans(${i},this)">${t}</button>`).join('');}
+function ans(i,el){const q=quiz[qi];const btns=document.querySelectorAll('.opt');btns.forEach(b=>b.disabled=true);
+if(i===q.a){el.classList.add('ok');sc+=10;document.getElementById('feed').textContent='🎉 أحسنت يا بطل!';document.getElementById('feed').style.color='#1d8a5a';}
+else{el.classList.add('no');btns[q.a].classList.add('ok');document.getElementById('feed').textContent='💪 إجابة غير صحيحة — الصحيحة بالأخضر';document.getElementById('feed').style.color='#b91c1c';}
+document.getElementById('score').textContent=`السؤال ${qi+1} من ${quiz.length} | النقاط: ${sc} 🌟`;
+document.getElementById('nextBtn').style.display='inline-block';}
+function nextQ(){qi++;if(qi>=quiz.length){document.getElementById('bar').style.width='100%';
+let star=sc>=180?'🏆 ممتاز! أنت بطل السيرة':sc>=120?'🌟 رائع جداً':'💪 جيد — حاول مرة أخرى';
+document.getElementById('qText').textContent=star+' — جمعت '+sc+' من '+(quiz.length*10);
+document.getElementById('opts').innerHTML='<div style="font-size:3rem">🎁🎉🌟</div><button class="opt" onclick="qi=0;sc=0;showQ()">العب مرة أخرى 🔄</button>';
+document.getElementById('nextBtn').style.display='none';document.getElementById('feed').textContent='';return;}showQ();}
+showQ();
+</script>
+</body>
+</html>
